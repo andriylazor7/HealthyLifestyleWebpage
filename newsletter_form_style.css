@@ -1,0 +1,74 @@
+/* Body and general layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 200%;
+  background-color: #F5F5DC; /* Beige background */
+  text-align: center;
+  margin: auto;
+}
+
+/* Form container */
+form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #FFFFFF; /* White background for form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Form heading */
+h2 {
+  color: #006666; /* Dark teal */
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Form labels */
+label {
+  color: #008080; /* Teal */
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+}
+
+/* Input and select styles */
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #008080; /* Teal border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  background-color: #F5F5DC; /* Beige background for input fields */
+}
+
+/* Button Style */
+button {
+  padding: 15px 25px;
+  background-color: #008080; /* Teal */
+  color: #FFFFFF; /* White text */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004D4D; /* Darker teal on hover */
+}
+
+/* Focus States for Accessibility */
+input:focus,
+select:focus,
+button:focus {
+  outline: 2px dashed #A8D5BA; /* Light green focus outline */
+}
